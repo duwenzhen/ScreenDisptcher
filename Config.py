@@ -1,6 +1,7 @@
 import math
 import json
 import os
+import pprint
 
 class Config:
     def __init__(self):
@@ -29,6 +30,7 @@ class Config:
         cwd = os.path.dirname(os.path.realpath(__file__))
         with open(os.path.join(cwd, "config.json")) as f:
             configObject = json.load(f)
+            pprint.pprint(configObject)
         self.HeightNumber = configObject["HeightNumber"]
         self.WidthNumber = configObject["WidthNumber"]
         width = int(math.floor(resolution[2] / self.WidthNumber))

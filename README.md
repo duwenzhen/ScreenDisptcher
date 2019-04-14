@@ -19,7 +19,7 @@ ect...
 
 please use "wmctrl -lx" if you need to now the name of your window. The third column is the window id.
 
-
+```json
 {'DefaultWindow': 1,
  'HeightNumber': 2,
  'ScreenByName': {'emacs25.Emacs': 0,
@@ -28,3 +28,4 @@ please use "wmctrl -lx" if you need to now the name of your window. The third co
                   'jetbrains-pycharm-ce.jetbrains-pycharm-ce': 3,
                   'nautilus.Nautilus': 1},
  'WidthNumber': 2}
+```

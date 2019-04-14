@@ -1,4 +1,5 @@
 # screenDispatcher
+For Linux only, you must have wmctrl installed.
 If yon use a large tv screen as a pc monito, this script maybe useful for you.
 
 Below is the config file.

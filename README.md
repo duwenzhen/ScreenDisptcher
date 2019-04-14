@@ -6,6 +6,7 @@ here I divide my 55" tv screen to 4 small screens.
 
 -------------------
 |Screen0 | Screen1|
+-------------------
 |Screen2 | Screen3|
 -------------------
 width = 2 and height = 2
